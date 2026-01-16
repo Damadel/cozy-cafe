@@ -1,0 +1,1597 @@
+/* ========================================
+   COZY CAFÉ - COMPLETE RESPONSIVE STYLES
+   All Devices: Phones, Tablets, Laptops, Desktops
+   ======================================== */
+
+/* ========================================
+   EXTRA LARGE DESKTOPS (1920px and above)
+   4K Monitors, Ultra-wide screens
+   ======================================== */
+@media (min-width: 1920px) {
+  .hero {
+    min-height: 90vh;
+  }
+
+  .hero-title {
+    font-size: 5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+    max-width: 800px;
+  }
+
+  .hero-btn {
+    padding: 1.3rem 3.5rem;
+    font-size: 1.3rem;
+  }
+
+  .section-title {
+    font-size: 3.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .about-container {
+    gap: 5rem;
+  }
+
+  .about-image {
+    height: 600px;
+  }
+
+  .testimonial-card {
+    min-width: 380px;
+    max-width: 380px;
+  }
+
+  .footer-container {
+    max-width: 1400px;
+  }
+}
+
+/* ========================================
+   LARGE DESKTOPS (1440px - 1919px)
+   Standard desktop monitors
+   ======================================== */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-container {
+    gap: 4rem;
+  }
+}
+
+/* ========================================
+   MEDIUM DESKTOPS / LAPTOPS (1200px - 1439px)
+   Standard laptops, small desktops
+   ======================================== */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-container {
+    gap: 3rem;
+  }
+
+  .footer-main {
+    gap: 2.5rem;
+  }
+}
+
+/* ========================================
+   SMALL LAPTOPS / LARGE TABLETS LANDSCAPE (992px - 1199px)
+   MacBook Air, iPad Pro Landscape
+   ======================================== */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    padding-top: 85px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .menu-card img {
+    height: 160px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .gallery-item {
+    height: 220px;
+  }
+
+  .about-container {
+    gap: 2.5rem;
+  }
+
+  .about-image {
+    height: 450px;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+  }
+
+  .contact-main-grid {
+    gap: 1.5rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1.3fr 1fr 1fr 1.2fr;
+    gap: 2rem;
+  }
+}
+
+/* ========================================
+   TABLETS LANDSCAPE / SMALL LAPTOPS (768px - 991px)
+   iPad Landscape, Surface, Small laptops
+   ======================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top: 80px;
+  }
+
+  nav {
+    padding: 0.8rem 4%;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    min-height: 85vh;
+    padding: 3rem 5%;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .menu {
+    padding: 4rem 4%;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .menu-card img {
+    height: 180px;
+  }
+
+  .gallery {
+    padding: 4rem 4%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+
+  .gallery-item {
+    height: 250px;
+  }
+
+  .about {
+    padding: 4rem 4%;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .section-heading {
+    font-size: 2.2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .stat-item {
+    padding: 1.2rem 0.8rem;
+  }
+
+  .stat-item h3 {
+    font-size: 2rem;
+  }
+
+  .about-image {
+    height: 400px;
+  }
+
+  .testimonials {
+    padding: 4rem 3%;
+  }
+
+  .testimonial-card {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 1.5rem;
+  }
+
+  .contact {
+    padding: 4rem 4%;
+  }
+
+  .contact-main-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .location-big-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .message-form-container {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-contact-info {
+    align-items: center;
+  }
+
+  .footer-links,
+  .footer-hours,
+  .footer-social-section {
+    text-align: center;
+  }
+
+  .footer-links h4::after,
+  .footer-hours h4::after,
+  .footer-social-section h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hours-list-footer li {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social-links-footer {
+    justify-content: center;
+  }
+
+  .newsletter-form {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* ========================================
+   TABLETS PORTRAIT (600px - 767px)
+   iPad Portrait, Android Tablets
+   ======================================== */
+@media (min-width: 600px) and (max-width: 767px) {
+  body {
+    padding-top: 70px;
+  }
+
+  nav {
+    padding: 0.8rem 4%;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: rgba(47, 24, 16, 0.98);
+    width: 100%;
+    height: calc(100vh - 70px);
+    text-align: center;
+    transition: 0.3s ease;
+    padding: 2rem;
+    gap: 1.5rem;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .hero {
+    min-height: 80vh;
+    padding: 2.5rem 5%;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .hero-btn {
+    padding: 0.9rem 1.8rem;
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .menu {
+    padding: 3.5rem 4%;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+
+  .menu-card {
+    padding: 1rem;
+  }
+
+  .menu-card img {
+    height: 160px;
+  }
+
+  .gallery {
+    padding: 3.5rem 4%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .gallery-item {
+    height: 200px;
+  }
+
+  .about {
+    padding: 3.5rem 4%;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-divider {
+    margin: 0 auto 1.5rem;
+  }
+
+  .about-content p {
+    text-align: center;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .about-image {
+    height: 350px;
+    order: -1;
+  }
+
+  .testimonials {
+    padding: 3.5rem 3%;
+  }
+
+  .testimonial-card {
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  .contact {
+    padding: 3.5rem 4%;
+  }
+
+  .contact-main-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .location-big-box {
+    padding: 2rem;
+  }
+
+  .contact-right-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .message-form-container {
+    padding: 2rem;
+  }
+
+  .input-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-container {
+    padding: 4rem 4% 1.5rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-contact-info {
+    align-items: center;
+  }
+
+  .footer-links h4::after,
+  .footer-hours h4::after,
+  .footer-social-section h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hours-list-footer li {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social-links-footer {
+    justify-content: center;
+  }
+
+  .footer-bottom-new {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+/* ========================================
+   LARGE PHONES (480px - 599px)
+   iPhone Plus/Max, Large Android phones
+   ======================================== */
+@media (min-width: 480px) and (max-width: 599px) {
+  body {
+    padding-top: 70px;
+  }
+
+  nav {
+    padding: 0.7rem 4%;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    flex-direction: column;
+    background: rgba(47, 24, 16, 0.98);
+    width: 100%;
+    height: calc(100vh - 70px);
+    text-align: center;
+    transition: 0.3s ease;
+    padding: 2rem;
+    gap: 1.5rem;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .hero {
+    min-height: calc(100vh - 70px);
+    padding: 2rem 5%;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .hero-btn {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .menu {
+    padding: 3rem 4%;
+  }
+
+  .menu-categories {
+    gap: 0.5rem;
+  }
+
+  .category-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .menu-card {
+    padding: 0.8rem;
+  }
+
+  .menu-card img {
+    height: 130px;
+  }
+
+  .menu-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .menu-card p {
+    font-size: 0.8rem;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .menu-card-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .order-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .gallery {
+    padding: 3rem 4%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .gallery-item {
+    height: 150px;
+  }
+
+  .about {
+    padding: 3rem 4%;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-divider {
+    margin: 0 auto 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+
+  .stat-item {
+    padding: 1rem 0.5rem;
+  }
+
+  .stat-icon {
+    font-size: 1.3rem;
+  }
+
+  .stat-item h3 {
+    font-size: 1.6rem;
+  }
+
+  .stat-item p {
+    font-size: 0.7rem;
+  }
+
+  .about-image {
+    height: 280px;
+    order: -1;
+  }
+
+  .about-image::before {
+    display: none;
+  }
+
+  .testimonials {
+    padding: 3rem 2%;
+  }
+
+  .testimonial-card {
+    min-width: 260px;
+    max-width: 260px;
+    padding: 1.5rem 1rem;
+  }
+
+  .contact {
+    padding: 3rem 4%;
+  }
+
+  .contact-main-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .location-big-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .location-icon-big {
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+  }
+
+  .location-big-box h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-right-stack {
+    gap: 1rem;
+  }
+
+  .info-card {
+    padding: 1.2rem;
+  }
+
+  .message-form-container {
+    padding: 1.5rem;
+  }
+
+  .input-row {
+    grid-template-columns: 1fr;
+  }
+
+  .send-btn {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 3rem 4% 1.5rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-contact-info {
+    align-items: center;
+  }
+
+  .footer-links h4::after,
+  .footer-hours h4::after,
+  .footer-social-section h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hours-list-footer li {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social-links-footer {
+    justify-content: center;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+
+  .footer-bottom-new {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+/* ========================================
+   MEDIUM PHONES (430px - 479px)
+   iPhone 14 Pro Max, Galaxy S23 Ultra
+   ======================================== */
+@media (min-width: 430px) and (max-width: 479px) {
+  body {
+    padding-top: 65px;
+  }
+
+  nav {
+    padding: 0.7rem 4%;
+    height: 65px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    top: 65px;
+    height: calc(100vh - 65px);
+  }
+
+  .hero {
+    min-height: calc(100vh - 65px);
+    padding: 1.5rem 5%;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .menu-card img {
+    height: 120px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .gallery-item {
+    height: 140px;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-image {
+    height: 250px;
+  }
+
+  .testimonial-card {
+    min-width: 280px;
+    max-width: 280px;
+  }
+}
+
+/* ========================================
+   STANDARD PHONES (390px - 429px)
+   iPhone 13/14/15, Galaxy S23
+   ======================================== */
+@media (min-width: 390px) and (max-width: 429px) {
+  body {
+    padding-top: 65px;
+    font-size: 15px;
+  }
+
+  nav {
+    padding: 0.7rem 4%;
+    height: 65px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .logo-icon {
+    font-size: 1.3rem;
+  }
+
+  .nav-links {
+    top: 65px;
+    height: calc(100vh - 65px);
+    padding: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.7rem 0;
+  }
+
+  .hero {
+    min-height: calc(100vh - 65px);
+    padding: 1.5rem 5%;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-btn {
+    width: 100%;
+    padding: 0.9rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    padding: 2.5rem 4%;
+  }
+
+  .menu-categories {
+    gap: 0.4rem;
+  }
+
+  .category-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .menu-card {
+    padding: 1rem;
+  }
+
+  .menu-card img {
+    height: 160px;
+  }
+
+  .menu-card-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .order-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .gallery {
+    padding: 2.5rem 4%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .gallery-item {
+    height: 220px;
+  }
+
+  .about {
+    padding: 2.5rem 4%;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+
+  .stat-item {
+    padding: 1rem 0.5rem;
+  }
+
+  .stat-icon {
+    font-size: 1.3rem;
+  }
+
+  .stat-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .stat-item p {
+    font-size: 0.7rem;
+  }
+
+  .about-image {
+    height: 250px;
+  }
+
+  .testimonials {
+    padding: 2.5rem 2%;
+  }
+
+  .testimonial-card {
+    min-width: 280px;
+    max-width: 280px;
+    padding: 1.5rem 1rem;
+  }
+
+  .contact {
+    padding: 2.5rem 4%;
+  }
+
+  .contact-main-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .location-big-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .location-icon-big {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+
+  .info-card {
+    padding: 1.2rem;
+  }
+
+  .message-form-container {
+    padding: 1.5rem;
+  }
+
+  .input-row {
+    grid-template-columns: 1fr;
+  }
+
+  .send-btn {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 3rem 4% 1.5rem;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-contact-info {
+    align-items: center;
+  }
+
+  .social-links-footer {
+    justify-content: center;
+  }
+
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    bottom: 15px;
+    font-size: 1rem;
+  }
+}
+
+/* ========================================
+   SMALL PHONES (375px - 389px)
+   iPhone 13 Mini, iPhone SE, Galaxy A series
+   ======================================== */
+@media (min-width: 375px) and (max-width: 389px) {
+  body {
+    padding-top: 60px;
+    font-size: 14px;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    top: 60px;
+    height: calc(100vh - 60px);
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .stat-item {
+    padding: 0.8rem 0.3rem;
+  }
+
+  .stat-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .stat-item p {
+    font-size: 0.65rem;
+  }
+
+  .testimonial-card {
+    min-width: 260px;
+    max-width: 260px;
+  }
+
+  .location-big-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .info-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hour-item {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+/* ========================================
+   EXTRA SMALL PHONES (below 375px)
+   iPhone SE (old), Galaxy J series
+   ======================================== */
+@media (max-width: 374px) {
+  body {
+    padding-top: 55px;
+    font-size: 13px;
+  }
+
+  nav {
+    height: 55px;
+    padding: 0.5rem 3%;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .logo-icon {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    top: 55px;
+    height: calc(100vh - 55px);
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 1rem 4%;
+  }
+
+  .hero-title {
+    font-size: 1.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .hero-btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .menu {
+    padding: 2rem 3%;
+  }
+
+  .category-btn {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .menu-card {
+    padding: 0.8rem;
+  }
+
+  .menu-card img {
+    height: 140px;
+  }
+
+  .menu-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .gallery {
+    padding: 2rem 3%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .gallery-item {
+    height: 180px;
+  }
+
+  .about {
+    padding: 2rem 3%;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.85rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .stat-item {
+    padding: 1rem;
+  }
+
+  .about-image {
+    height: 200px;
+  }
+
+  .testimonials {
+    padding: 2rem 2%;
+  }
+
+  .testimonial-card {
+    min-width: 240px;
+    max-width: 240px;
+    padding: 1.2rem 0.8rem;
+  }
+
+  .testimonial-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonial-card p {
+    font-size: 0.8rem;
+  }
+
+  .contact {
+    padding: 2rem 3%;
+  }
+
+  .location-big-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .location-icon-big {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .location-big-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .location-name {
+    font-size: 1rem;
+  }
+
+  .directions-btn-big {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .info-card {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info-card-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .message-form-container {
+    padding: 1.2rem;
+  }
+
+  .form-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .message-form input,
+  .message-form textarea {
+    padding: 0.7rem 0.7rem 0.7rem 2.2rem;
+    font-size: 0.85rem;
+  }
+
+  .send-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-container {
+    padding: 2.5rem 3% 1rem;
+  }
+
+  .footer-main {
+    gap: 1.5rem;
+  }
+
+  .footer-logo h3 {
+    font-size: 1.3rem;
+  }
+
+  .footer-tagline {
+    font-size: 0.8rem;
+  }
+
+  .footer-links h4,
+  .footer-hours h4,
+  .footer-social-section h4 {
+    font-size: 1rem;
+  }
+
+  .social-btn-footer {
+    width: 38px;
+    height: 38px;
+  }
+
+  .newsletter-form input {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .newsletter-form button {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.75rem;
+  }
+
+  .footer-bottom-new p {
+    font-size: 0.75rem;
+  }
+
+  .back-to-top {
+    width: 38px;
+    height: 38px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 0.9rem;
+  }
+
+  /* Modal adjustments */
+  .order-modal-content {
+    width: 98%;
+    padding: 1rem;
+  }
+
+  .lightbox-content {
+    max-width: 98%;
+  }
+}
+
+/* ========================================
+   LANDSCAPE ORIENTATION FIXES
+   ======================================== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: auto;
+    padding: 2rem 5%;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+  }
+
+  .hero-btn {
+    width: auto;
+  }
+
+  .nav-links {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+@media print {
+  nav,
+  .back-to-top,
+  .hero-buttons,
+  .order-btn,
+  .social-links-footer,
+  .newsletter,
+  .lightbox,
+  .order-modal {
+    display: none !important;
+  }
+
+  body {
+    padding-top: 0;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 2rem;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
+
+/* ========================================
+   HIGH CONTRAST / ACCESSIBILITY
+   ======================================== */
+@media (prefers-contrast: high) {
+  :root {
+    --primary: #4a3525;
+    --secondary: #c9923a;
+    --dark: #1a0f0a;
+  }
+
+  .hero-btn,
+  .order-btn,
+  .send-btn {
+    border: 2px solid currentColor;
+  }
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .testimonials-track {
+    animation: none;
+  }
+}
